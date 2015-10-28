@@ -1,28 +1,21 @@
-body {
-  font-family: helvica sans-serif;
-  margin: 0;
+.top {
+  height: 345px;
   background-color: #e6ebef;
-  color: #1c1513;
-/*  background-image: url("sky.jpg");
-  background-size: cover; */
 }
 
-.name {
+.heading {
   padding: 20px;
   text-align: center;
   text-shadow: 2px 2px #c0c0c0;
   line-height: 200%;
-}
-
-.container {
-  width: 900px;
-  margin: auto;
+  margin-top: 0;
 }
 
 .me {
   border-radius: 25px;
   float: left;
   margin-right: 15px;
+  margin-bottom: 20px;
 }
 
 .bio {
