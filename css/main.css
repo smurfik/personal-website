@@ -12,12 +12,32 @@ body {
 
 h2 {
   margin: 0;
-}
-
-.projects {
   clear: both;
 }
 
-div::after {
-  content: "hi";
+h2::before {
+  content: "~ ~ ~ "
+}
+
+h2::after {
+  content: " ~ ~ ~"
+}
+
+.adj_images {
+  padding-top: 40px;
+  padding-right: 20px;
+}
+
+ul{
+  padding-left: 10px;
+}
+
+.style {
+  font-weight: bold;
+  color: #b33237;
+}
+
+li {
+  display: inline-block;
+  list-style: none;
 }
