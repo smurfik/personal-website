@@ -37,6 +37,7 @@ ul{
   font-weight: bold;
   color: #b33237;
   text-align: center;
+  margin: 0;
 }
 
 li {
@@ -57,8 +58,12 @@ li {
 .footer li {
  float: right;
  padding-right: 30px;
+ padding-bottom: 5px;
 }
 
 .corners {
   border-radius: 25px;
+}
+.footer ul {
+  margin: 0;
 }
