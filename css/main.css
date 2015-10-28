@@ -41,3 +41,8 @@ li {
   display: inline-block;
   list-style: none;
 }
+
+.left {
+  width: 300px;
+  float: left;
+}
