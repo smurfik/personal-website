@@ -1,5 +1,5 @@
 .top {
-  height: 415px;
+  height: 475px;
   background-color: #e6ebef;
 }
 
@@ -22,4 +22,5 @@
   text-align: justify;
   margin: 16px;
   margin-top: 30px;
+  padding-top: 20px;
 }
