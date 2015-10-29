@@ -3,7 +3,7 @@ a {
 }
 /* unvisited link */
 a:link {
-    color: #d29699;
+    color: #8d655d/*#d29699*/;
 }
 
 /* visited link */
