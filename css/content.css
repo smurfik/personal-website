@@ -17,14 +17,6 @@ h2 {
   clear: both;
 }
 
-h2::before {
-  content: "~ ~ ~ "
-}
-
-h2::after {
-  content: " ~ ~ ~"
-}
-
 .adj_images {
   padding-top: 40px;
   padding-right: 20px;
@@ -40,6 +32,8 @@ ul{
   color: #b33237;
   text-align: center;
   margin: 0;
+  font-size: 125%;
+  text-shadow: 1px 1px #c0c0c0;
 }
 
 li {
@@ -50,4 +44,8 @@ li {
 .sub-container {
   width: 300px;
   float: left;
+}
+
+.center {
+  padding-left: 65px;
 }
