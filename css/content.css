@@ -66,6 +66,13 @@ li {
   float: left;
 }
 
+.separator:before {
+  content: "";
+  padding: 20px;
+  display: block;
+  clear: both;
+}
+
 /* Shrink */
 .hvr-shrink {
   display: inline-block;
@@ -84,4 +91,3 @@ li {
   -webkit-transform: scale(0.9);
   transform: scale(0.9);
 }
-
