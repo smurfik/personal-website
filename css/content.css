@@ -1,3 +1,17 @@
+div p {
+  margin-left: 16px;
+  margin-bottom: 20px;
+}
+
+ul{
+  padding-left: 10px;
+}
+
+li {
+  display: inline-block;
+  list-style: none;
+}
+
 .me {
   border-radius: 25px;
   float: left;
@@ -13,24 +27,10 @@
   padding-top: 20px;
 }
 
-div p {
-  margin-left: 16px;
-  margin-bottom: 20px;
-}
-
-h2 {
-  margin: 0;
-  clear: both;
-}
-
 .adj_images {
   padding-top: 40px;
   padding-right: 20px;
   padding-left: 50px;
-}
-
-ul{
-  padding-left: 10px;
 }
 
 .style {
@@ -42,17 +42,11 @@ ul{
   text-shadow: 1px 1px #c0c0c0;
 }
 
-li {
-  display: inline-block;
-  list-style: none;
-}
-
 .position {
   width: 40%;
 }
 
 .sub-container {
-/*  width: 300px; */
   width: 33.33333%;
   float: left;
 }
